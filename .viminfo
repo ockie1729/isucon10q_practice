@@ -1,0 +1,475 @@
+# この viminfo ファイルは Vim 8.1 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/cache
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:x
+|2,0,1657896733,,"x"
+:q
+|2,0,1657896710,,"q"
+:q!
+|2,0,1657804649,,"q!"
+:w
+|2,0,1657737245,,"w"
+:960
+|2,0,1657736822,,"960"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/searchEstates
+|2,1,1657738414,47,"searchEstates"
+?/echo
+|2,1,1657738356,47,"echo"
+?/Logger
+|2,1,1657737253,47,"Logger"
+?/main
+|2,1,1657736851,47,"main"
+?/cache
+|2,1,1657592404,47,"cache"
+?/isucon
+|2,1,1657590636,47,"isucon"
+?/all
+|2,1,1657590232,47,"all"
+?/mysql
+|2,1,1657590035,47,"mysql"
+?/clien
+|2,1,1657589902,47,"clien"
+? @$
+|2,1,1657554211,,"@$"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""1	LINE	0
+	
+|3,1,1,1,1,0,1657896429,""
+"2	LINE	0
+	        local/
+|3,0,2,1,1,0,1657896425,"        local/"
+"3	LINE	0
+	        isuumo/
+|3,0,3,1,1,0,1657896424,"        isuumo/"
+"4	LINE	0
+	        etc/
+|3,0,4,1,1,0,1657896420,"        etc/"
+"5	LINE	0
+	        env.sh
+|3,0,5,1,1,0,1657896415,"        env.sh"
+"6	LINE	0
+	        .viminfo
+|3,0,6,1,1,0,1657896411,"        .viminfo"
+"7	LINE	0
+	        env.sh
+|3,0,7,1,1,0,1657896404,"        env.sh"
+"8	LINE	0
+	        digest.txt
+|3,0,8,1,1,0,1657896401,"        digest.txt"
+"9	LINE	0
+	 .viminfo
+|3,0,9,1,1,0,1657896399," .viminfo"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1657896382," "
+
+# ファイルマーク:
+'0  11  12  ~/isuumo/.gitignore
+|4,48,11,12,1657896733,"~/isuumo/.gitignore"
+'1  1  0  ~/isuumo/.gitignore
+|4,49,1,0,1657896710,"~/isuumo/.gitignore"
+'2  1  0  ~/isuumo/.gitignore
+|4,50,1,0,1657896710,"~/isuumo/.gitignore"
+'3  1  0  ~/isuumo/agreed/server.js
+|4,51,1,0,1657896640,"~/isuumo/agreed/server.js"
+'4  13  5  ~/.gitignore
+|4,52,13,5,1657896466,"~/.gitignore"
+'5  3  0  ~/.bashrc
+|4,53,3,0,1657896447,"~/.bashrc"
+'6  13  0  ~/.profile
+|4,54,13,0,1657896439,"~/.profile"
+'7  15  0  ~/.gitignore
+|4,55,15,0,1657896429,"~/.gitignore"
+'8  14  0  ~/.gitignore
+|4,56,14,0,1657896429,"~/.gitignore"
+'9  12  0  ~/.gitignore
+|4,57,12,0,1657896384,"~/.gitignore"
+
+# ジャンプリスト (新しいものが先):
+-'  11  12  ~/isuumo/.gitignore
+|4,39,11,12,1657896733,"~/isuumo/.gitignore"
+-'  1  0  ~/isuumo/.gitignore
+|4,39,1,0,1657896720,"~/isuumo/.gitignore"
+-'  1  0  ~/isuumo/.gitignore
+|4,39,1,0,1657896710,"~/isuumo/.gitignore"
+-'  1  0  ~/isuumo/agreed/server.js
+|4,39,1,0,1657896640,"~/isuumo/agreed/server.js"
+-'  1  0  ~/isuumo/agreed/server.js
+|4,39,1,0,1657896640,"~/isuumo/agreed/server.js"
+-'  1  0  ~/isuumo/agreed/server.js
+|4,39,1,0,1657896640,"~/isuumo/agreed/server.js"
+-'  1  0  ~/isuumo/agreed/server.js
+|4,39,1,0,1657896640,"~/isuumo/agreed/server.js"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  13  5  ~/.gitignore
+|4,39,13,5,1657896466,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1657896462,"~/.gitignore"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  3  0  ~/.bashrc
+|4,39,3,0,1657896447,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1657896445,"~/.bashrc"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  13  0  ~/.profile
+|4,39,13,0,1657896439,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1657896435,"~/.profile"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/isuumo/.gitignore
+	*	1657896732	0
+	"	11	12
+	^	11	13
+	.	11	12
+	+	11	12
+
+> ~/isuumo/agreed/server.js
+	*	1657896639	0
+	"	1	0
+
+> ~/.gitignore
+	*	1657896466	0
+	"	13	5
+	^	13	6
+	.	13	5
+	+	496	0
+	+	15	0
+	+	14	17
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	12	0
+	+	11	0
+	+	12	0
+	+	14	0
+	+	15	0
+	+	13	5
+
+> ~/.bashrc
+	*	1657896446	0
+	"	3	0
+
+> ~/.profile
+	*	1657896438	0
+	"	13	0
+
+> ~/etc/slowq.txt
+	*	1657805033	0
+	"	413	30
+
+> ~/isuumo/webapp/mysql/db/0_Schema.sql
+	*	1657804648	0
+	"	35	39
+	^	37	40
+	.	37	40
+	+	21	0
+	+	38	0
+	+	20	42
+	+	37	41
+	+	37	40
+
+> ~/etc/nginx.conf
+	*	1657803878	0
+	"	22	46
+
+> ~/isuumo/webapp/go/main.go
+	*	1657803509	0
+	"	274	0
+
+> ~/.ssh/authorized_keys
+	*	1657803443	0
+	"	1	100
+	^	3	101
+	.	3	100
+	+	1	380
+	+	2	744
+	+	2	0
+	+	3	100
+
+> ~/slowq.txt
+	*	1657738464	0
+	"	286	0
+
+> /etc/systemd/system/isuumo.go.service
+	*	1657737049	0
+	"	10	0
+
+> ~/isuumo/webapp/go/isuumo
+	*	1657736932	0
+	"	1	0
+
+> ~/isuumo/webapp/go/Makefile
+	*	1657736521	0
+	"	1	0
+
+> ~/etc/f
+	*	1657735702	0
+	"	1	0
+
+> ~/digest.txt
+	*	1657733928	0
+	"	71	0
+
+> /etc/mysql/mysql.cnf
+	*	1657733433	0
+	"	19	0
+	.	19	0
+	+	19	0
+
+> /etc/nginx/nginx.conf
+	*	1657732021	0
+	"	27	0
+
+> /etc/nginx/sites-available/isuumo.conf
+	*	1657731991	0
+	"	1	0
+
+> /etc/nginx/sites-available/default
+	*	1657731985	0
+	"	26	0
+
+> ~/isucon10-qualify/provisioning/ansible/roles/web-bootstrap/files/mysqld.cnf
+	*	1657592407	0
+	"	59	0
+	^	61	2
+	.	61	1
+	+	60	1
+	+	61	1
+
+> /etc/mysql/mysql.conf.d/mysqld.cnf
+	*	1657592218	0
+	"	75	0
+
+> /etc/mysql/mysql.conf.d/mysql.cnf
+	*	1657592210	0
+	"	1	0
+
+> /etc/mysql/my.cnf
+	*	1657592199	0
+	"	21	0
+
+> ~/isucon10-qualify/provisioning/ansible/roles/web-bootstrap/tasks/main.yaml
+	*	1657591897	0
+	"	160	20
+	^	103	84
+	.	103	58
+	+	79	21
+	+	80	26
+	+	82	21
+	+	83	27
+	+	84	19
+	+	103	135
+	+	103	58
+
+> isucon10-qualify/provisioning/ansible/roles/web-bootstrap/tasks/main.yaml
+	*	1657590624	0
+	"	1	0
+
+> ~/isucon10-qualify/provisioning/ansible/roles/common/tasks/main.yaml
+	*	1657589371	0
+	"	16	0
