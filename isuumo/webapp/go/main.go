@@ -864,9 +864,20 @@ func searchEstateNazotte(c echo.Context) error {
 
 	queryTemplate := `
 	SELECT
-		*
+	    id,
+	    thumbnail,
+	    name,
+	    description,
+	    latitude,
+	    longitude,
+	    address,
+	    rent,
+	    door_height,
+	    door_width,
+	    features,
+	    popularity
 	FROM
-		estate
+	    estate
 	WHERE
 		ST_Contains(ST_PolygonFromText(%s), Point(latitude, longitude))
 	ORDER BY
