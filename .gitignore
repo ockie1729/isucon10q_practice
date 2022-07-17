@@ -9,11 +9,10 @@
 .rustup/
 .ssh/
 digest.txt
-go/
+./go/
 local/
 slowq.txt
 
-reated by https://www.toptal.com/developers/gitignore/api/vim,emacs,python,node,ruby,rust,perl
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,emacs,python,node,ruby,rust,perl
 
 ### Emacs ###
