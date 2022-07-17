@@ -17,6 +17,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"github.com/labstack/gommon/log"
 )
 
 const Limit = 20
@@ -240,11 +241,11 @@ func init() {
 func main() {
 	// Echo instance
 	e := echo.New()
-	e.Debug = false
-	// e.Logger.SetLevel(log.ERROR)
+	e.Debug = true
+	e.Logger.SetLevel(log.DEBUG)
 
 	// Middleware
-	// e.Use(middleware.Logger())
+	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
 	// Initialize
@@ -890,6 +891,8 @@ func searchEstateNazotte(c echo.Context) error {
 	LIMIT ?`
 
 	query := fmt.Sprintf(queryTemplate, coordinates.coordinatesToText())
+
+	c.Logger().Debug(query)
 
 	estatesInPolygon := []Estate{}
 	err = db.Select(estatesInPolygon,
