@@ -1,0 +1,11 @@
+~ISUCONbot(-Mobile)? 1
+~ISUCONbot-Image\/ 1
+~Mediapartners-ISUCON 1
+~ISUCONCoffee 1
+~ISUCONFeedSeeker(Beta)? 1
+~crawler \(https:\/\/isucon\.invalid\/(support\/faq\/|help\/jp\/) 1
+~isubot 1
+~Isupider 1
+~Isupider(-image)?\+ 1
+~*(bot|crawler|spider)$ 1
+~*/(bot|crawler|spider)[-_ .\/;@()] 1
