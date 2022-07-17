@@ -865,10 +865,7 @@ func searchEstateNazotte(c echo.Context) error {
 	queryTemplate := `
 	WITH candidate_estates AS (
 		SELECT
-			id,
-			latitude,
-			longitude,
-			popularity
+			*
 		FROM
 			estate
 		WHERE
