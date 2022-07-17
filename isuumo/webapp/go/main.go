@@ -862,8 +862,6 @@ func searchEstateNazotte(c echo.Context) error {
 		return c.NoContent(http.StatusBadRequest)
 	}
 
-	b := coordinates.getBoundingBox()
-
 	queryTemplate := `
 	WITH candidate_estates AS (
 		SELECT
@@ -892,15 +890,17 @@ func searchEstateNazotte(c echo.Context) error {
 
 	query := fmt.Sprintf(queryTemplate, coordinates.coordinatesToText())
 
-	c.Logger().Debug(query)
+	c.Logger().Debug(query) // FIXME
+
+	bbox := coordinates.getBoundingBox()
 
 	estatesInPolygon := []Estate{}
-	err = db.Select(estatesInPolygon,
+	err = db.Select(&estatesInPolygon,
 		query,
-		b.BottomRightCorner.Latitude,
-		b.TopLeftCorner.Latitude,
-		b.BottomRightCorner.Longitude,
-		b.TopLeftCorner.Longitude,
+		bbox.BottomRightCorner.Latitude,
+		bbox.TopLeftCorner.Latitude,
+		bbox.BottomRightCorner.Longitude,
+		bbox.TopLeftCorner.Longitude,
 		NazotteLimit)
 
 	if err != nil {
