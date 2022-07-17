@@ -17,7 +17,6 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"github.com/labstack/gommon/log"
 )
 
 const Limit = 20
@@ -876,6 +875,10 @@ func searchEstateNazotte(c echo.Context) error {
 
 	estatesInPolygon := []Estate{}
 	for _, estate := range estatesInBoundingBox {
+		if len(estatesInPolygon) >= NazotteLimit {
+			break
+		}
+
 		validatedEstate := Estate{}
 
 		point := fmt.Sprintf("'POINT(%f %f)'", estate.Latitude, estate.Longitude)
