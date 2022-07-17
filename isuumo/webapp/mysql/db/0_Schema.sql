@@ -24,8 +24,8 @@ CREATE TABLE isuumo.estate
     INDEX       rent_width_index  (rent, door_height),
     INDEX       height_rent_index (door_height, rent),
     INDEX       widht_rent_index  (door_width, rent),
-    latlon      Point GENERATED ALWAYS (Point(latitude, longitude)) STORED NOT NULL,
-    SPATIAL INDEX  latlon_index   (latlon)      
+    latlon      Point GENERATED ALWAYS AS (Point(latitude, longitude)) STORED NOT NULL,
+    SPATIAL INDEX latlon_index (latlon)
 );
 
 CREATE TABLE isuumo.chair
