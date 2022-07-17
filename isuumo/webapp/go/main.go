@@ -874,8 +874,8 @@ func searchEstateNazotte(c echo.Context) error {
 	}
 
 	estatesInPolygon := []Estate{}
-	for i, estate := range estatesInBoundingBox {
-		if i >= NazotteLimit {
+	for _, estate := range estatesInBoundingBox {
+		if len(estatesInPolygon) >= NazotteLimit {
 			break
 		}
 
